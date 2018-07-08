@@ -1,0 +1,41 @@
+body {
+    background: #44aaaa;
+    display: flex;
+    min-height: 0px;
+    flex-direction: column;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.name {
+    background-color: #44aaaa;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 0px 25px;
+    padding: 20px 10px 20px 10px;
+    float: left
+}
+
+a {
+    float: right;
+    color: #777777;
+    line-height: 25px;
+}
+
+.content {
+    display: table-column;
+}
+
+.profile {
+    float: left;
+    margin: 25px 10px 10px 25px;
+}
+
