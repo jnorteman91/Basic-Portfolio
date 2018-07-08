@@ -1,14 +1,16 @@
 body {
-    background: #44aaaa;
+    background: #cccccc;
     display: flex;
     min-height: 0px;
     flex-direction: column;
+    width: 960px;
+    text-align: left;
 }
 
 header {
     background-color: #ffffff;
     border-color: #cccccc;
-    border-width: 0px 0px 2px 0px;
+    border-width: 0px 0px 5px 0px;
     border-style: solid;
     margin: 0px;
     overflow: hidden;
@@ -28,6 +30,7 @@ a {
     float: right;
     color: #777777;
     line-height: 25px;
+    padding: 0px 10px 0px 0px;
 }
 
 .content {
@@ -36,6 +39,39 @@ a {
 
 .profile {
     float: left;
-    margin: 25px 10px 10px 25px;
+    margin: 0px 15px 25px 0px;
+    bottom: 25%;
 }
 
+h2 {
+    color: #44aaaa;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0px 0px 25px 0px;
+    margin: 0px 25px 0px 25px;
+    padding: 25px 0px 25px 0px;
+}
+
+content {
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    color: #777777;
+    height: 75%;
+    margin: 25px 0px 25px 0px;
+    padding-bottom: 25px
+}
+
+footer {
+    background-color: #666666;
+    border-color: #44aaaa;
+    border-style: solid;
+    text-align: center;
+    border-width: 10px 0px 0px 0px;
+    height: 40px;
+    width: 100%;
+    bottom: 0%
+}
